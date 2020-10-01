@@ -75,7 +75,7 @@ public class AndroidSquashEntry extends SquashEntry implements LogEntry {
 }
 ````
 
-Add an exception handler that will generate these entry instances. (In the below
+Add an exception handler that will generate these entries instances. (In the below
 example we're assuming that you've also built a factory that instantiates Squash
 entries, and a `transmit` method that transmits the JSON to Squash.)
 
